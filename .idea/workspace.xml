@@ -20,6 +20,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lifeweb" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -35,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621975435059</updated>
-      <workItem from="1621975436149" duration="24611000" />
+      <workItem from="1621975436149" duration="53553000" />
     </task>
     <servers />
   </component>
@@ -47,17 +48,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1621975879003" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1622119385910">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1622119385910" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622020538064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622020538064" />
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1621985922032">
+    <state x="483" y="87" key="NewPhpClassDialog" timestamp="1622109983292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1621985922032" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1621975485307">
+    <state x="483" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1622109983292" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1622050572785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1621975485307" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1622050572785" />
+    <state x="388" y="-8" width="585" height="728" key="find.popup" timestamp="1622049854346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="-8" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1622049854346" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1622129819387">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1622129819387" />
   </component>
 </project>

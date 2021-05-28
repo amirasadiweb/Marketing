@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\BasicController;
 use App\Models\Api\V1\Product;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 class ProductsController extends BasicController
 {
 
@@ -25,6 +26,10 @@ class ProductsController extends BasicController
     public function store(Request $request)
     {
         try{
+
+            if(Gate::denies('role'))
+                return 'Access Denied For User Marketing';
+
 
             $data=$this->validateRequest('create');
             $picture=$request->file('picture')->store('marketing');
@@ -49,6 +54,10 @@ class ProductsController extends BasicController
     public function update(Product $product,Request $request)
     {
         try{
+
+            if(Gate::denies('role'))
+                return 'Access Denied For User Marketing';
+
 
             if($request->hasFile('picture')){
                 $picture=$request->file('picture')->store('marketing');
@@ -77,6 +86,11 @@ class ProductsController extends BasicController
     public function destroy (Product $product)
     {
         try{
+
+            if(Gate::denies('role'))
+                return 'Access Denied For User Marketing';
+
+
             $product->delete();
             return $this->sendResponse($product, 'Success Soft Delete');
         }

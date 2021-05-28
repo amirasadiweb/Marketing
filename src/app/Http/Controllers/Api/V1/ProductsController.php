@@ -6,7 +6,6 @@ use App\Http\Controllers\BasicController;
 use App\Models\Api\V1\Product;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 class ProductsController extends BasicController
 {
 
@@ -15,7 +14,7 @@ class ProductsController extends BasicController
      */
     public function show()
     {
-        return Product::get();
+        return Product::orderBy('id','desc')->get();
     }
 
 
@@ -114,6 +113,7 @@ class ProductsController extends BasicController
                 'URL'=>'required',
                 'title'=>'required',
                 'description'=>'required',
+                'user_id'=>'required',
                 'picture'=>'required|mimes:jpeg,jpg,png|max:500000'
             ]);
         }else{
@@ -121,6 +121,7 @@ class ProductsController extends BasicController
                 'URL'=>'',
                 'title'=>'',
                 'description'=>'',
+                'user_id'=>'',
                 'picture'=>'mimes:jpeg,jpg,png|max:500000'
             ]);
         }

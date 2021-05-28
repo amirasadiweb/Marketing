@@ -11,11 +11,11 @@ class Product extends Model
     use SoftDeletes;
     protected $guarded=[];
     protected $hidden=['updated_at','created_at','deleted_at'];
-    protected $appends=['full_Picture_path'];
 
-    public function getFullPicturePathAttribute()
+    public function visits()
     {
-        return asset('storage/app') . '/' . $this->picture;
+        return $this->hasMany(Visit::class);
     }
+
 
 }
